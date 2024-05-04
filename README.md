@@ -1,34 +1,7 @@
-## Usage
+## Challenge Prompt
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+**Problem:** Sarah is a freelance photographer who struggles to keep track of her client appointments and manage her photo shoots efficiently. She often finds herself double-booked or forgetting important details about her clients and their preferences.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+**Challenge:** Build a web application that helps freelance photographers like Sarah manage their client appointments and photo shoots effectively. However, there's a catch – you can only use asynchronous communication methods for scheduling appointments. This means that the app cannot rely on real-time updates or notifications, and all communication between Sarah and her clients must occur via email or SMS.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
-
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+This limitation forces you to design a system that can handle scheduling and communication asynchronously, without relying on immediate feedback or real-time updates. You'll need to think about how to manage appointments, send reminders to both Sarah and her clients, and handle any conflicts or changes to the schedule without the need for real-time communication.
